@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <title>About Us</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    *{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.top{
+    width: 100%;
+    height:125px;
+    border: 2px solid blue;
+    display: flex;
+
+}
+
+.logo1 img{
+  width: 140px;
+  height: auto;
+  margin-top: 4px;
+  margin-left: 4px;
+}
+
+.text1{
+    width: 61%;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.logoh1{
+    width: 100%;
+    height: 85px;
+    font-family:sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    align-items:end;
+}
+
+.logoh4{
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.login1{
+    width: 11%;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.login1 button{
+    width: auto;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #cecbc96d;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-left: 2px;
+    
+}
+
+.login1 button a{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.837);
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.login1 button a:hover{
+    color: #06e22bf4;
+}
+
+.propic{
+    width: 10%;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.propic img{
+    width: 100px;
+    height: 100px;
+}
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: #8000ff;
+    
+}
+
+.menu{
+    width: 80%;
+    float: left;
+}
+
+ul{
+    float: left;
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+.search{
+    width: 20%;
+    float: left;
+ 
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 10px;
+    color: #000000;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    outline: #ff7200 solid 2px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #a2ff00;
+    border: 2px solid #ff7200;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+    outline: #ff7200 solid 2px;
+}
+.btn:hover{
+    color: #000;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+    #about-us {
+      height: 75%;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+h3{
+  font-weight: bolder;
+  font-size: 25px;
+}
+.word{
+  font-size: 20px;
+  text-align: center;
+}
+#p1
+{
+  margin-top: 40px;
+  font-size: 80px;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/*font*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+  font-family: Open Sans;
+}
+
+
+.footer-distributed{
+  background: #666;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 0px;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+  width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+  color:  #ffffff;
+  font: normal 36px 'Open Sans', cursive;
+  margin: 0;
+}
+
+.footer-distributed h3 span{
+  color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+  color:  #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  font-weight:400;
+  text-decoration: none;
+  color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+  color:  #222;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+  width: 35%;
+}
+
+.footer-distributed .footer-center i{
+  background-color:  #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+  display: inline-block;
+  color: #ffffff;
+  font-weight:400;
+  vertical-align: middle;
+  margin:0;
+}
+
+.footer-distributed .footer-center p span{
+  display:block;
+  font-weight: normal;
+  font-size:14px;
+  line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+  color:  lightseagreen;
+  text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+  line-height: 20px;
+  color:  #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+  display: block;
+  color:  #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  transparent;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+
+
+@media (max-width: 880px) {
+
+  .footer-distributed{
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i{
+    margin-left: 0;
+  }
+
+}
+
+
+  </style>
+</head>
+<body>
+  <div class="main">
+
+    <div class = "top">
+
+        <div class = "logo1">
+            <a href="home.php"><img src = "image/6ea9d8d5ac75d9c5d7a2a567c1e2bbdf.jpg " width ="150px" height="150px"></a>
+        </div>
+
+        <div class = "text1">
+            <div><h2 class = "logoh1">Event Horaizon</h2></div>
+            <div><h4 class = "logoh4">Your events are managed in an advance procedure...</h4></div>
+        </div>
+
+        <div class = "login1">
+            <div><button class = "bttn"><a href = "login.php">Login</a></button></div>
+            <div><button class = "bttn"><a href = "registration.php">Sign up</a></button></div>
+        </div>
+
+        <div class = "propic">
+            <a href="login.php"><img src = "image/user.png" width = "150px" height="150px"></a>
+        </div>
+
+    </div>
+
+    <div class="navbar">
+            
+        <div class="menu">
+            <ul>
+                <li><a href="home.php">HOME</a></li>
+                <li><a href="login.php">View Profile</a></li>
+                <li><a href="event.php">Event</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="aboutUs.html">About us</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </div>
+
+        <div class="search">
+            <input class="srch" type="search" name="" placeholder="Type To text">
+            <a href="resultEvent.html"> <button class="btn">Search</button></a>
+        </div>
+
+    </div> 
+  <div id="about-us">
+      
+  <center> <h1 id="p1">About Us</h1><br><br><br>
+ <h3>Who we are</h3></center><br><br>
+    <p class="word">Welcome to our "About Us" page. Event Horizon has been the top marketplace for purchasing and
+      selling tickets of various types of events.Our commitment to
+      providing the best customer service and exclusive Guarantee
+      gives you the assuarance you need.With our innovative product features, we always have your best
+      features, we always have your best interests in mind. Our reach
+      has expanded to more than 20 countries, allowing us to serve 
+      customers all over the world.
+    <p class="word">Contact us today to discuss your event needs and let us bring your vision to life!</p>
+  </div>
+
+  
+
+  
+  <footer class="footer-distributed">
+
+    <div class="footer-left">
+
+      <h3>Event<span>Horaizon</span></h3>
+
+      <p class="footer-links">
+        <a href="home.php" class="link-1">Home</a>
+        
+        <a href="login.php">Profile</a>
+      
+        <a href="event.php">Event</a>
+      
+        <a href="contact.html">Contact us</a>
+        
+        <a href="aboutUs.html">About us</a>
+        
+        <a href="faq.html">Faq</a>
+      </p>
+
+      <p class="footer-company-name">Company Name © 2023</p>
+    </div>
+
+    <div class="footer-center">
+
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>Malabe</span>Sri Lanka</p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>+94 123 456 789</p>
+      </div>
+
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="eventhorizon@gmail.com">eventhorizon@gmail.com</a></p>
+      </div>
+
+    </div>
+
+    <div class="footer-right">
+
+      <p class="footer-company-about">
+        <span>About the company</span>
+        Event Horaizon.lk is growing to become the Sri Lanka’s leading ticket selling platform.
+        We are the official marketplace provide you with a secure and safe platform to buy and sell tickets and remind events with a group of well-resourced professionals 
+        their capabilities with the latest technology to meet international standards.</p>
+
+      <div class="footer-icons">
+
+        <a href="www.facebook.com/eventhorizon"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="www.instergram.com/eventhorizon"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="www.twitter.com"><ion-icon name="logo-twitter"></ion-icon></a>
+        <a href="www.googleplus.com"><ion-icon name="logo-google"></ion-icon></a>
+        <a href="www.skype.com"><ion-icon name="logo-skype"></ion-icon></a>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
